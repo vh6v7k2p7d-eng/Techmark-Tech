@@ -1,0 +1,17 @@
+{
+  "name": "techmarktech-website",
+  "version": "1.0.0",
+  "description": "TechMarkTech website with email form handling",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "dotenv": "^16.0.3"
+  }
+}
