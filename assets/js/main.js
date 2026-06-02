@@ -4,7 +4,7 @@ const menuToggle = document.querySelector("[data-menu-toggle]");
 const leadEmail = "contact@techmarktech.com";
 const whatsAppNumber = "917506001640";
 const whatsAppMessage = "Hi TechMarkTech, I want to discuss a website, portal or automation project.";
-const leadEndpoints = ["/api/lead", "/.netlify/functions/lead"];
+const leadEndpoints = ["/.netlify/functions/lead"];
 
 function buildWhatsAppUrl(message = whatsAppMessage) {
   return `https://wa.me/${whatsAppNumber}?text=${encodeURIComponent(message)}`;
