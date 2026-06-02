@@ -1,10 +1,5 @@
 {
   "buildCommand": "npm install --legacy-peer-deps || true",
-  "env": {
-    "RESEND_API_KEY": "@resend_api_key",
-    "LEAD_TO_EMAIL": "@lead_to_email",
-    "RESEND_FROM_EMAIL": "@resend_from_email"
-  },
   "functions": {
     "api/**/*.js": {
       "memory": 1024,
